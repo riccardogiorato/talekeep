@@ -60,6 +60,10 @@ strong {
   border-color: transparent;
 }
 
+.hero_logo{
+  margin: 0 auto;
+  padding: 25px 10px;
+}
 
 /*---------------------------------------
     General               

@@ -44,14 +44,15 @@
                </div>
                <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                         <li class="active"><a href="#" >Projects</a></li>
-                         <li><a href="https://sketchfab.com/riccardogiorato/collections/premium" >Sketchfab</a></li> 
+                         <li class="active"><a href="#">Projects</a></li>
+                         <li><a onclick="mixpanel.track('Sketchfab');"
+                                   href="https://sketchfab.com/riccardogiorato/collections/premium">Sketchfab</a></li>
                          <!-- <li><a href="about.html">Our Studio</a></li>
                     <li><a href="blog.html">Blog</a></li>
                
-                    <li><a href="#" onclick={writeToUs()}>Unity Assets Store</a></li> 
+                    <li><a href="#" onclick={}>Unity Assets Store</a></li> 
                -->
-                    <li><a href="#" onclick={writeToUs()}>Contact us</a></li> 
+                         <li><a href="#" onclick={writeToUs()}>Contact us</a></li>
                     </ul>
                </div>
 
@@ -64,7 +65,7 @@
           <div class="container">
                <div class="row">
                     <div class="col-md-12 col-sm-12">
-                         <h1>Relive</h1>
+                         <img src="images/relive.png" class="img-responsive hero_logo" alt="relive">
                          <h2>The creative studio that builds virtual worlds from the real world</h2>
                          <hr>
                     </div>
@@ -80,13 +81,14 @@
                <div class="row">
 
                     <div class="col-md-4 col-sm-6">
-                         <a href="https://sketchfab.com/riccardogiorato/collections/premium">
+                         <a onclick="mixpanel.track('Sketchfab');"
+                              href="https://sketchfab.com/riccardogiorato/collections/premium">
                               <div class="portfolio-thumb">
                                    <img src="images/sketchfab.png" class="img-responsive" alt="sketchfab store models">
                                    <div class="portfolio-overlay">
                                         <div class="portfolio-item">
                                              <h3>Sketchfab</h3>
-                                             <small>3D models to view in AR or VR</small>
+                                             <small>3D models for AR or VR</small>
                                         </div>
                                    </div>
                               </div>
@@ -108,7 +110,8 @@
                     </div>
                     -->
                     <div class="col-md-12 col-sm-12 text-center">
-                         <h3>If you interest on working together. just send us a <a class="link" href="#" onclick={writeToUs()}>message</a></h3>
+                         <h3>If you interest on working together. just send us a <a class="link" href="#"
+                                   onclick={writeToUs()}>message</a></h3>
                     </div>
 
                </div>
@@ -122,7 +125,7 @@
                <div class="row">
 
                     <div class="col-md-12">
-                         <p><a href="mailto:youremail@gmail.com">hello@yourstudio.co</a></p>
+                         <p><a href="mailto:info@riccardogiorato.com">info@riccardogiorato.com</a></p>
                     </div>
 
                     <div class="clearfix col-md-12 col-sm-12">
