@@ -64,6 +64,7 @@ strong {
   margin: 0 auto;
   padding: 25px 10px;
   max-width: 900px;
+  width: 90%;
 }
 
 /*---------------------------------------
@@ -211,8 +212,7 @@ a:hover, a:active, a:focus {
     letter-spacing: 1px;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-    padding-right: 22px;
-    padding-left: 22px;
+    padding: 40px 20px;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -324,7 +324,9 @@ a:hover, a:active, a:focus {
 #portfolio .portfolio-thumb {
   position: relative;
   padding: 0;
-  margin-top: 32px;
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay {
