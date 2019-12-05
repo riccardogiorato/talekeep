@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
      <meta name="description" content="">
      <meta name="keywords" content="">
      <meta name="author" content="">
      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="icon" href="images/logo_r.png">
 
      <title>talekeep</title>
 
@@ -21,14 +21,6 @@
 </head>
 
 <body>
-
-     <!-- PRE LOADER -->
-
-     <div class="preloader">
-          <div class="sk-spinner sk-spinner-wordpress">
-               <span class="sk-inner-circle"></span>
-          </div>
-     </div>
 
      <!-- Navigation section  -->
 
@@ -44,16 +36,14 @@
                </div>
                <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                         <li class="active"><a href="#">talekeep</a></li>
-                         <li><a onclick="mixpanel.track('Sketchfab');"
-                                   href="https://sketchfab.com/riccardogiorato/collections/premium">Sketchfab</a></li>
-                         <li><a href="https://assetstore.unity.com/publishers/45011">Unity</a></li>
-                                   <!-- <li><a href="about.html">Our Studio</a></li>
-                    <li><a href="blog.html">Blog</a></li>
+                         <li><a href="https://sketchfab.com/riccardogiorato/collections/premium">Sketchfab</a></li>
+                         <li><a href="https://www.youtube.com/channel/UCHOUVsmobNw6WNx0LACCCLA">YouTube</a></li>
+               <!--           <li><a href="https://assetstore.unity.com/publishers/45011">Unity</a></li>
                
-                    <li><a href="#" onclick={}>Unity Assets Store</a></li> 
+                         <li><a href="about.html">Our Studio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
                -->
-                         <li><a href="#" onclick={writeToUs()}>Contact us</a></li>
+                         <li><a href="mailto:info@riccardogiorato.com">Contact us</a></li>
                     </ul>
                </div>
 
@@ -82,8 +72,7 @@
                <div class="row">
 
                     <div class="col-md-4 col-sm-6">
-                         <a onclick="mixpanel.track('Sketchfab');"
-                              href="https://sketchfab.com/riccardogiorato/collections/premium">
+                         <a href="https://sketchfab.com/riccardogiorato/collections/premium">
                               <div class="portfolio-thumb">
                                    <img src="images/sketchfab.png" class="img-responsive" alt="sketchfab store models">
                                    <div class="portfolio-overlay">
@@ -95,7 +84,22 @@
                               </div>
                          </a>
                     </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <a href="https://www.youtube.com/channel/UCHOUVsmobNw6WNx0LACCCLA">
+                              <div class="portfolio-thumb">
+                                   <img src="images/youtube.png" class="img-responsive" alt="sketchfab store models">
+                                   <div class="portfolio-overlay">
+                                        <div class="portfolio-item">
+                                             <h3>YouTube</h3>
+                                             <small>tutorials and showcases videos</small>
+                                        </div>
+                                   </div>
+                              </div>
+                         </a>
+                    </div>
           
+                    <!--  
                     <div class="col-md-4 col-sm-6">
                          <a href="https://assetstore.unity.com/publishers/45011">
                               <div class="portfolio-thumb">
@@ -109,10 +113,10 @@
                               </div>
                          </a>
                     </div>
+               -->
                     
                     <div class="col-md-12 col-sm-12 text-center">
-                         <h3>If you interest on working together, send us a <a class="link" href="#"
-                                   onclick={writeToUs()}>message</a></h3>
+                         <h3>If you interest on working together, send us a <a class="link" href="mailto:info@riccardogiorato.com">message</a></h3>
                     </div>
 
                </div>
@@ -157,16 +161,6 @@
      <script src="js/jquery.js"></script>
      <script src="js/bootstrap.min.js"></script>
      <script src="js/custom.js"></script>
-
-     <script
-          type="text/javascript">window.$crisp = []; window.CRISP_WEBSITE_ID = "23cc2961-65ce-413d-afa0-4e7526d1cda3"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();</script>
-     <script type="text/javascript">
-
-          function writeToUs() {
-               $crisp.push(["do", "chat:open"])
-          }
-
-     </script>
 </body>
 
 </html>
