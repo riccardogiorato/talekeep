@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-class BlogPostTemplate extends React.Component {
+class PodcastPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
@@ -16,7 +16,7 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <article>
+        <article class="mw7 center">
           <header>
             <h1
               style={{
@@ -34,8 +34,11 @@ class BlogPostTemplate extends React.Component {
             </p>
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
-          <hr
-          />
+
+          <p>
+            <audio class="ma2" style={{ "width": "100%" }} src={post.frontmatter.mp3_url} controls preload="none"></audio>
+          </p>
+
         </article>
 
         <nav>
@@ -69,7 +72,7 @@ class BlogPostTemplate extends React.Component {
   }
 }
 
-export default BlogPostTemplate
+export default PodcastPostTemplate
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
@@ -86,6 +89,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        mp3_url
       }
     }
   }

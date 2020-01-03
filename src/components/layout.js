@@ -20,9 +20,9 @@ const Layout = (props) => {
       className="w-100 sans-serif"
     >
 
-      <nav className="db dt-l w-100 border-box pa3 ph5-l">
+      <nav className="db dt-l w-100 border-box pa3 ph5-l mw8 center">
 
-        <Link className="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" to="/" title="Home">
+        <Link className="db dtc-l v-mid link dim w-100 w-25-l tc tl-l mb2 mb0-l" to="/" title="Home">
           <Image
             style={{ maxWidth: "100px", margin: "0 auto" }}
             fluid={data.menu_logo.childImageSharp.fluid}
@@ -31,9 +31,9 @@ const Layout = (props) => {
 
         </Link>
         <div className="db dtc-l v-mid w-100 w-75-l tc tr-l">
-          <Link className="bold dim  f6 f4-l dib mr3 mr4-l" to="/" title="Home">Home</Link>
-          <Link className="bold dim  f6 f4-l dib mr3 mr4-l" to="/podcast" title="Podcast">Podcast</Link>
-          <a className="bold dim f6 f4-l dib" href="mailto:talekeep3d@gmail.com" title="Contact">Contact</a>
+          <Link className="bold dim f4 dib mr3 mr4-l" to="/" title="Home">Home</Link>
+          <Link className="bold dim f4 dib mr3 mr4-l" to="/podcast" title="Podcast">Podcast</Link>
+          <a className="bold dim f4 dib" href="mailto:talekeep3d@gmail.com" title="Contact">Contact</a>
         </div>
       </nav>
 

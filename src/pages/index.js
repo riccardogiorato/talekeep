@@ -23,10 +23,6 @@ const HomeIndex = (props) => {
       <section class="cf w-100 pa2-ns mw7 center">
         <div class="sketchfab-embed-wrapper">
           <iframe title="A 3D model" width="100%" height="480" src="https://sketchfab.com/models/58a1009ef9684b548a2214e84891f566/embed?autospin=0.015&amp;autostart=1&amp;camera=0" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-          <p>
-            <a href="https://sketchfab.com/3d-models/the-world-is-in-our-hands-christiania-58a1009ef9684b548a2214e84891f566?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank">The World is in our hands - Christiania</a>
-
-          </p>
         </div>
 
         {/*<article class="fl w-100 w-50-m  w-25-ns pa2-ns">
