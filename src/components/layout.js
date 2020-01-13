@@ -37,12 +37,13 @@ const Layout = (props) => {
         </div>
       </nav>
 
-
       <main>{props.children}</main>
       <footer className="ph3 ph4-ns black-70 mw7 center mb4">
         <div className="mt4 mb4">
           <a className="link blu dim f3 dib mr3 mr4-l" href="https://sketchfab.com/talekeep" title="Sketchfab">Sketchfab</a>
+          <a className="link blu dim f3 dib mr3 mr4-l" href="https://www.youtube.com/channel/UCbPKUxiV2bq8bvbP4n3dxPQ" title="Youtube">Youtube</a>
           <a className="link blu dim f3 dib mr3 mr4-l" href="https://twitter.com/talekeep3d" title="Twitter">Twitter</a>
+          <a className="link blu dim f3 dib mr3 mr4-l" href="https://www.tiktok.com/@talekeep" title="TikTok">TikTok</a>
         </div>
         <a href="mailto:talekeep3d@gmail.com" className=" b f3 f3-ns dim link black-70 lh-solid">talekeep3d@gmail.com</a>
         <p className="f6 db b ttu lh-solid">© 2020 talekeep</p>
