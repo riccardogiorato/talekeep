@@ -35,9 +35,11 @@ class PodcastPostTemplate extends React.Component {
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
 
-          <p>
-            <audio class="ma2" style={{ "width": "100%" }} src={post.frontmatter.mp3_url} controls preload="none"></audio>
-          </p>
+          {post.frontmatter.mp3_url !== "" && (
+            <p>
+              <audio class="ma2" style={{ "width": "100%" }} src={post.frontmatter.mp3_url} controls preload="none"></audio>
+            </p>
+          )}
 
         </article>
 
