@@ -33,7 +33,7 @@ const Layout = (props) => {
         <div className="db dtc-l v-mid w-100 w-75-l tc tr-l">
           <Link className="bold dim f4 dib mr3 mr4-l" to="/" title="Home">Home</Link>
           <Link className="bold dim f4 dib mr3 mr4-l" to="/labs" title="Labs">Labs</Link>
-          <Link className="bold dim f4 dib mr3 mr4-l" to="/podcast" title="Podcast">Podcast</Link>
+          {/*<Link className="bold dim f4 dib mr3 mr4-l" to="/podcast" title="Podcast">Podcast</Link>*/}
           <a className="bold dim f4 dib" href="mailto:talekeep3d@gmail.com" title="Contact">Contact</a>
         </div>
       </nav>
