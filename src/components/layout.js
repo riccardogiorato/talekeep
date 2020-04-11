@@ -53,42 +53,42 @@ const Layout = props => {
       <footer className="ph3 ph4-ns black-70 mw7 center mb4">
         <div className="mt4 mb4">
           <a
-            className="link blu dim f3 dib mr3 mr4-l"
+            className="link blu dim f4 dib mr3 mr4-l lh-copy mt-2"
             href="https://sketchfab.com/talekeep"
             title="Sketchfab"
           >
             Sketchfab
           </a>
           <a
-            className="link blu dim f3 dib mr3 mr4-l"
+            className="link blu dim f4 dib mr3 mr4-l lh-copy mt-2"
             href="https://www.youtube.com/channel/UCbPKUxiV2bq8bvbP4n3dxPQ"
             title="Youtube"
           >
             Youtube
           </a>
           <a
-            className="link blu dim f3 dib mr3 mr4-l"
+            className="link blu dim f4 dib mr3 mr4-l lh-copy mt-2"
             href="https://twitter.com/talekeepmedia"
             title="Twitter"
           >
             Twitter
           </a>
           <a
-            className="link blu dim f3 dib mr3 mr4-l"
+            className="link blu dim f4 dib mr3 mr4-l lh-copy mt-2"
             href="https://instagram.com/talekeepmedia"
             title="Instagram"
           >
             Instagram
           </a>
           <a
-            className="link blu dim f3 dib mr3 mr4-l"
+            className="link blu dim f4 dib mr3 mr4-l lh-copy mt-2"
             href="https://www.tiktok.com/@talekeepmedia"
             title="TikTok"
           >
             TikTok
           </a>
           <a
-            className="link blu dim f3 dib mr3 mr4-l"
+            className="link blu dim f4 dib mr3 mr4-l lh-copy mt-2"
             href="https://www.facebook.com/Talekeep-110318583970889/"
             title="Facebook"
           >
