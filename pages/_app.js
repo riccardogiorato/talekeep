@@ -26,10 +26,10 @@ class MyApp extends App {
 
     const finalLdJson = JSON.stringify(ldJson)
 
-    const simpleLogoPath = "/assets/logo_r.png";
+    const simpleLogoPath = "/assets/logo_r.png"
 
     return (
-      <div className="w-100 sans-serif">
+      <html lang="en" dir="ltr">
         <Head>
           <title>{title}</title>
           <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -48,6 +48,7 @@ class MyApp extends App {
           <meta name="format-detection" content="telephone=no" />
           <meta name="mobile-web-app-capable" content="yes" />
           <meta name="theme-color" content="#000000" />
+          <link rel="manifest" href="/manifest.json" />
           <link rel="apple-touch-icon" href={simpleLogoPath}></link>
           {/* PWA end */}
 
@@ -85,15 +86,18 @@ class MyApp extends App {
             href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"
           />
         </Head>
+        <body>
+          <div className="w-100 sans-serif">
+            <Menu />
 
-        <Menu />
+            <div className="container mx-auto">
+              <Component {...pageProps} />
+            </div>
 
-        <div className="container mx-auto">
-          <Component {...pageProps} />
-        </div>
-
-        <Footer />
-      </div>
+            <Footer />
+          </div>
+        </body>
+      </html>
     )
   }
 }
