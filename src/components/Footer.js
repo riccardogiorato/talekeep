@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <footer className="ph3 ph4-ns black-70 mw7 center mb4">
-        <h2 class="f3 pa4">Would you like us to 3D scan something for you?<br/> <a class="" href="talekeep3d@gmail.com">Send us an email!</a></h2>
+        <h2 className="f3 pa4">Would you like us to 3D scan something for you?<br/> <a className="" href="talekeep3d@gmail.com">Send us an email!</a></h2>
       <div className="mt4 mb4">
         <a
           className="link blu dim f4 dib mr3 mr4-l lh-copy mt-2"
