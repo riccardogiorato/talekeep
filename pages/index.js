@@ -3,7 +3,7 @@ import React, { Fragment } from "react"
 const HomeIndex = () => {
   return (
     <Fragment>
-      <img className="db cf w-100 mw6 center" src="/assets/talekeep.png" />
+      <img className="db cf w-100 mw6 center" alt="talekeep logo" src="/assets/talekeep.png" />
       <h3 className="tc pb3 f3">
         The creative studio that builds virtual worlds from the real world
       </h3>
