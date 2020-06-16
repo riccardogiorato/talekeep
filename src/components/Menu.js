@@ -24,6 +24,11 @@ const Menu = () => {
           3D Scans
           </a>
         </Link>
+        <Link href="/newsletter">
+          <a  className="bold dim f4 dib mr3 mr4-l">
+          Newsletter
+          </a>
+        </Link>
         {/*<Link className="bold dim f4 dib mr3 mr4-l" to="/podcast" title="Podcast">Podcast</Link>*/}
         <a
           className="bold dim f4 dib"
