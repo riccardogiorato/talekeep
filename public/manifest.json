@@ -9,7 +9,7 @@
   "icons": [
     {
       "src": "/assets/logo_r.png",
-      "sizes": "192x192",
+      "sizes": "120x120",
       "type": "image/png"
     }
   ]

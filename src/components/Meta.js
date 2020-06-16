@@ -6,7 +6,7 @@ const Meta = (
   const description = props.desc || "The creative studio that builds virtual worlds from the real world";
   const websitename = "talekeep";
   const websiteUrl = "https://talekeep.com";
-  const mainSocialPic = "/assets/siteSocialPic.jpg";
+  const mainSocialPic = props.socialPic || "/assets/siteSocialPic.jpg";
 
   const ldJson = {
     "@context": "http://schema.org",

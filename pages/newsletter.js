@@ -1,9 +1,11 @@
 import React, { Fragment } from "react"
+import Meta from "../src/components/Meta"
 
 const newsletter = () => {
   return (
     <Fragment>
-      <div class="block container cf w-100 pa2-ns mw8 center">
+      <Meta desc="Subscribe to talekeep Fans - Newsletter 🎉" socialPic="/assets/socialPic/newsletter.jpg" />
+      <div className="block container cf w-100 pa2-ns mw8 center">
         <iframe
           width="100%"
           height="500"
