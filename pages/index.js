@@ -1,11 +1,20 @@
 import React, { Fragment } from "react"
+import Image from "next/image"
 
 const HomeIndex = () => {
   return (
     <Fragment>
-      <img className="db cf w-90 mw6 center pa2" alt="talekeep logo" src="/assets/talekeep.png" />
+      <div className="db cf w-90 mw6 center pa2">
+        <Image
+          width={500}
+          height={191}
+          alt="talekeep logo"
+          src="/assets/talekeep.png"
+        />
+      </div>
       <h3 className="tc pb3 f3">
-      We scan the real world to create virtual worlds with you - 3D Scans as a Service 
+        We scan the real world to create virtual worlds with you - 3D Scans as a
+        Service
       </h3>
       <section className="cf w-100 pa2-ns mw7 center">
         <div className="sketchfab-embed-wrapper">
